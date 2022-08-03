@@ -14,8 +14,8 @@
     <navType>Standard</navType>
     <tabs>Work__c</tabs>
     <tabs>TestCase__c</tabs>
-    <tabs>Defect__c</tabs>
     <tabs>TestRun__c</tabs>
+    <tabs>Defect__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Testing_UtilityBar</utilityBar>
 </CustomApplication>

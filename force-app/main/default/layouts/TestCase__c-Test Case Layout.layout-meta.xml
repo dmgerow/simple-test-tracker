@@ -3,7 +3,7 @@
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
@@ -88,6 +88,16 @@
         <relatedList>TestRun__c.TestCase__c</relatedList>
         <sortField>TestRunDate__c</sortField>
         <sortOrder>Desc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Defect__c.TestCase__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
