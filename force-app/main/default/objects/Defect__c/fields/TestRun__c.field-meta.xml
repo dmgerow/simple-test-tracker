@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestRun__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Source test run for this defect (optional)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Source test run for this defect (optional)</inlineHelpText>
+    <label>Test Run</label>
+    <referenceTo>TestRun__c</referenceTo>
+    <relationshipLabel>Defects</relationshipLabel>
+    <relationshipName>Defects</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

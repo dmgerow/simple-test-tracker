@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Description__c</fullName>
+    <fullName>Notes__c</fullName>
+    <description>Notes about test case</description>
     <externalId>false</externalId>
-    <inlineHelpText>Enter the description (e.g. the full user story)</inlineHelpText>
-    <label>Description</label>
+    <inlineHelpText>Notes about test case</inlineHelpText>
+    <label>Notes</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
