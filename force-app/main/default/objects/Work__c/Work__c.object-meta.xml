@@ -147,7 +147,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Default</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>The work that will be tested. Can be a user story or other piece of functionality.</description>
     <enableActivities>false</enableActivities>
