@@ -7,6 +7,11 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Defect__c.Assignee__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Defect__c.Description__c</field>
         <readable>true</readable>
@@ -15,6 +20,11 @@
         <editable>true</editable>
         <field>Defect__c.ExternalKey__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Defect__c.ReportedBy__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

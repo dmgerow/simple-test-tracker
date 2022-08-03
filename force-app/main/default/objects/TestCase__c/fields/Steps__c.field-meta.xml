@@ -6,6 +6,7 @@
     <inlineHelpText>Test description including functionality to test and steps to take</inlineHelpText>
     <label>Test Steps</label>
     <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Html</type>

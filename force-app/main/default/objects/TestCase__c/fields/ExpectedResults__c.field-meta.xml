@@ -5,6 +5,7 @@
     <inlineHelpText>What is the outcome of this test?</inlineHelpText>
     <label>Expected Results</label>
     <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Html</type>

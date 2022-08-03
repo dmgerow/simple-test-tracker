@@ -79,8 +79,10 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
+    <relatedLists>
         <excludeButtons>MassChangeOwner</excludeButtons>
-        <excludeButtons>New</excludeButtons>
         <fields>NAME</fields>
         <fields>Tester__c</fields>
         <fields>TestRunDate__c</fields>
@@ -90,10 +92,11 @@
         <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
-        <relatedList>RelatedFileList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>NAME</fields>
+        <fields>ReportedBy__c</fields>
+        <fields>Assignee__c</fields>
+        <fields>Status__c</fields>
+        <fields>Subject__c</fields>
         <relatedList>Defect__c.TestCase__c</relatedList>
     </relatedLists>
     <relatedLists>

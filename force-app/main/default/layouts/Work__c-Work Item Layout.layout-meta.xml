@@ -75,10 +75,14 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Status__c</fields>
+        <fields>Notes__c</fields>
         <relatedList>TestCase__c.Work__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Status__c</fields>
+        <fields>Subject__c</fields>
         <relatedList>Defect__c.Work__c</relatedList>
     </relatedLists>
     <relatedLists>

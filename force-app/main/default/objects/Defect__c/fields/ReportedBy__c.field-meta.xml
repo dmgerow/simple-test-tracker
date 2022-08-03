@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>TestRunDate__c</fullName>
-    <defaultValue>TODAY()</defaultValue>
-    <description>Date that test was run</description>
+    <fullName>ReportedBy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <inlineHelpText>Date that test was run</inlineHelpText>
-    <label>Test Run Date</label>
+    <inlineHelpText>Person who reported the defect</inlineHelpText>
+    <label>Reported By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>DefectsReported</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Date</type>
+    <type>Lookup</type>
 </CustomField>
