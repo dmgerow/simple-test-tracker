@@ -4,7 +4,7 @@
         <application>Testing</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <description>Administrative users for the testing app. Access to all objects and fields.</description>
+    <description>User that requires access to the testing app</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Defect__c.Assignee__c</field>
@@ -106,7 +106,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Testing Admin</label>
+    <label>Testing User</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
